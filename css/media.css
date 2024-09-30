@@ -1,0 +1,103 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero-section .container {
+    gap: 0 50px;
+  }
+  #contact-section .contact .container .info .info-box {
+    width: 100%;
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+  #contact-section .contact .container .form form input {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #header .container .nav-bar ul {
+    display: none;
+  }
+  #header .container .nav-icons {
+    display: flex;
+  }
+  #header .container .nav-icons .bars-icon i {
+    display: block;
+    margin-left: 20px;
+  }
+  .container {
+    padding-inline: 50px;
+  }
+  #hero-section .container {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+  }
+  #hero-section .container .hero-text {
+    width: 100%;
+  }
+  #hero-section .container .hero-img-box {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  #hero-section .container .hero-text .hero-btns {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 0 30px;
+    flex-wrap: wrap;
+  }
+  #chefs-section .chefs-cards .container {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    overflow: hidden;
+  }
+  #gallery-section .gallery .container {
+    flex-wrap: wrap;
+  }
+  .footer .container {
+    flex-wrap: wrap;
+  }
+  .footer .container .footer-col {
+    width: 100%;
+  }
+  .footer .container .footer-col form button,
+  .footer .container .footer-col form input {
+    width: 100%;
+  }
+  .footer .container .footer-col form {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 380px) {
+  #hero-section .container .hero-text button:last-of-type {
+    margin-top: 10px;
+  }
+  .container {
+    padding-inline: 20px;
+  }
+  .footer .container .footer-col-2 ul li {
+    width: 100%;
+  }
+}
